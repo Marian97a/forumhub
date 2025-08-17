@@ -1,4 +1,6 @@
 package br.com.alura.forumhub.repository;
 
-public interface RespostaRepository {
-}
+import br.com.alura.forumhub.model.Resposta;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface RespostaRepository extends JpaRepository<Resposta, Long> {}
